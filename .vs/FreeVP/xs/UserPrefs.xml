@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{89BA194E-DE61-D00D-318F-A2C017CB4E52}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AnimateHandOnInput.cs">
+    <Files>
+      <File FileName="Assets/AnimateHandOnInput.cs" Line="11" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FreeVP" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="AnimateHandOnInput.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

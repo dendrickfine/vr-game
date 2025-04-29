@@ -1,0 +1,25 @@
+# Folder yang harus diabaikan
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# File cache Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# File Sistem Operasi
+.DS_Store
+Thumbs.db
+
+# File Unity package
+*.unitypackage
