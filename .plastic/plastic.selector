@@ -1,0 +1,4 @@
+repository "VR-School/FreeVP@18968281756224@cloud"
+  path "/"
+    br "/main"
+    co "/main"
