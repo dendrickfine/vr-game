@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{2723F00E-D669-6D54-74E3-59E92CCD286E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/gui.cs">
+    <Files>
+      <File FileName="Assets/Scenes/gui.cs" Line="10" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="vr" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True">
+                <Node name="gui.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d6941e51-3c4a-4e88-81ce-8d1ff870dc90" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
