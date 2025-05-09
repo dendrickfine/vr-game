@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VR-School.sln"
+    "dotnet.defaultSolution": "vr-game.sln"
 }
