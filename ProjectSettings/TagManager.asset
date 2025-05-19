@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - QuestItem
+=======
+  - Bendera
+>>>>>>> 55d8ef1 (rizal)
   layers:
   - Default
   - TransparentFX
