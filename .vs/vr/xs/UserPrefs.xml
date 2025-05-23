@@ -1,18 +1,25 @@
 ﻿<Properties StartupConfiguration="{2723F00E-D669-6D54-74E3-59E92CCD286E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GolemiteGames/TimersMadeEasyLite/Scripts/Timer.cs">
     <Files>
       <File FileName="../dedrick/Assets/PlayerStats.cs" Line="13" Column="37" />
       <File FileName="Assets/Scenes/gui.cs" />
       <File FileName="Library/PackageCache/com.unity.collab-proxy@2.7.1/Editor/PlasticApp.cs" />
-      <File FileName="Assets/EnemyAI.cs" Line="63" Column="2" />
+      <File FileName="Assets/EnemyAI.cs" Line="24" Column="6" />
+      <File FileName="Assets/GolemiteGames/TimersMadeEasyLite/Scripts/Timer.cs" Line="101" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="vr" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="GolemiteGames" expanded="True">
+                <Node name="TimersMadeEasyLite" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Timer.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Scenes" expanded="True" />
-              <Node name="EnemyAI.cs" selected="True" />
             </Node>
           </Node>
         </State>
