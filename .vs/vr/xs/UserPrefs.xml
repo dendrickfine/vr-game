@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{2723F00E-D669-6D54-74E3-59E92CCD286E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/gui.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyAI.cs">
     <Files>
-      <File FileName="Assets/Scenes/gui.cs" Line="10" Column="46" />
+      <File FileName="../dedrick/Assets/PlayerStats.cs" Line="13" Column="37" />
+      <File FileName="Assets/Scenes/gui.cs" />
+      <File FileName="Library/PackageCache/com.unity.collab-proxy@2.7.1/Editor/PlasticApp.cs" />
+      <File FileName="Assets/EnemyAI.cs" Line="63" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="vr" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scenes" expanded="True">
-                <Node name="gui.cs" selected="True" />
-              </Node>
+              <Node name="Scenes" expanded="True" />
+              <Node name="EnemyAI.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d6941e51-3c4a-4e88-81ce-8d1ff870dc90" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b9d9352-e0af-4f28-928e-17356ae6a5ca" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
