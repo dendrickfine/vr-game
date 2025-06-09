@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{2723F00E-D669-6D54-74E3-59E92CCD286E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GolemiteGames/TimersMadeEasyLite/Scripts/Timer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyAI.cs">
     <Files>
-      <File FileName="../dedrick/Assets/PlayerStats.cs" Line="13" Column="37" />
-      <File FileName="Assets/Scenes/gui.cs" />
-      <File FileName="Library/PackageCache/com.unity.collab-proxy@2.7.1/Editor/PlasticApp.cs" />
-      <File FileName="Assets/EnemyAI.cs" Line="24" Column="6" />
-      <File FileName="Assets/GolemiteGames/TimersMadeEasyLite/Scripts/Timer.cs" Line="101" Column="23" />
+      <File FileName="Assets/EnemyAI.cs" Line="102" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,12 +10,11 @@
             <Node name="Assets" expanded="True">
               <Node name="GolemiteGames" expanded="True">
                 <Node name="TimersMadeEasyLite" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="Timer.cs" selected="True" />
-                  </Node>
+                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scenes" expanded="True" />
+              <Node name="EnemyAI.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b9d9352-e0af-4f28-928e-17356ae6a5ca" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c03eb46b-9e8c-42a2-bd38-4372207f26d8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
