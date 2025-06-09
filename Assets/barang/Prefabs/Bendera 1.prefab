@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5504581054498722324}
   - component: {fileID: 7740960487963773610}
   - component: {fileID: 322555553392668024}
+  - component: {fileID: -7623637758301322392}
   m_Layer: 0
   m_Name: Bendera 1
   m_TagString: Bendera
@@ -309,3 +310,17 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-7623637758301322392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3378840180039775583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3856c674e83c74fbbdeff2856994e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIndex: 1
+  holdDuration: 1
