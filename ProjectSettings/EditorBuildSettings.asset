@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Ayong Good.unity
+    guid: 0c4481cd2110d91469effa6e00753f64
+  - enabled: 0
     path: Assets/Scenes/Main VR Scene.unity
     guid: fc7bd004da6604aad90588df7888b308
+  - enabled: 1
+    path: Assets/Scenes/devit.unity
+    guid: a1addab9b985eff429709a10126a38e3
+  - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 4cf432269badca24eb716c726893abd1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58d22ac4b16ae4c57b65e245bef980d9, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c877706acbf284b77aefcee8bf1035dc, type: 2}
