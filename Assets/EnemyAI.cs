@@ -15,6 +15,10 @@ public class EnemyAI : MonoBehaviour
     public AudioClip idleClip;
     public AudioClip killClip;
 
+    [Header("Audio Settings")]
+    public float maxVolume = 1f;
+    public float minVolume = 0.1f;
+
     private NavMeshAgent agent;
     private Animator animator;
     private AudioSource audioSource;
@@ -45,6 +49,8 @@ public class EnemyAI : MonoBehaviour
         if (isPlayerDead || player == null) return;
 
         float distance = Vector3.Distance(transform.position, player.position);
+
+        AdjustVolumeBasedOnDistance(distance);
 
         if (distance <= detectionRange)
         {
@@ -156,5 +162,23 @@ public class EnemyAI : MonoBehaviour
         audioSource.clip = idleClip;
         audioSource.loop = true;
         audioSource.Play();
+    }
+
+    // --- Volume Control Based on Distance ---
+    void AdjustVolumeBasedOnDistance(float distance)
+    {
+        if (audioSource == null) return;
+
+        // Jika di luar detection range, volume minimum
+        if (distance > detectionRange)
+        {
+            audioSource.volume = minVolume;
+            return;
+        }
+
+        // Hitung volume berdasarkan kedekatan
+        float t = Mathf.Clamp01(1 - (distance / detectionRange));
+        float targetVolume = Mathf.Lerp(minVolume, maxVolume, t);
+        audioSource.volume = targetVolume;
     }
 }
