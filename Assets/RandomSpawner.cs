@@ -7,7 +7,7 @@ public class RandomSpawner : MonoBehaviour
     public GameObject[] objectPrefabs; // Foto, radio, buku, bendera
     public Transform[] spawnPoints;    // 20 titik spawn
 
-    public int totalObjectsToSpawn = 10; // Berapa objek yang mau kamu spawn (bisa disesuaikan)
+    public int totalObjectsToSpawn = 1; // Berapa objek yang mau kamu spawn (bisa disesuaikan)
 
     void Start()
     {
