@@ -7,7 +7,7 @@ public class gui : MonoBehaviour
 {
     public void loadscene()
     {
-        SceneManager.LoadScene("Main VR Scene");
+        SceneManager.LoadScene("Ayong Good 1");
     }
 
     public void KeluarGame()

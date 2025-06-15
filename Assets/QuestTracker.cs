@@ -20,6 +20,14 @@ public class QuestTracker : MonoBehaviour
 
     void UpdateQuestText()
     {
+        // Cek apakah semua item sudah ditemukan
+        if (CheckAllItemsFound())
+        {
+            questText.text = "<b><color=green>Thank you!</color></b>";
+            return;
+        }
+
+        // Tampilkan status masing-masing quest
         questText.text =
             "Kondisi Menang:\n" +
             (itemStatus[0] ? "[Selesai]" : "☐") + " Temukan Foto Presiden Pertama Indonesia!\n" +
@@ -28,5 +36,15 @@ public class QuestTracker : MonoBehaviour
             (itemStatus[3] ? "[Selesai]" : "☐") + " Temukan Buku UUD 1945!\n\n" +
             "Kondisi Kalah:\n" +
             "Waktu habis";
+    }
+
+    bool CheckAllItemsFound()
+    {
+        foreach (bool status in itemStatus)
+        {
+            if (!status)
+                return false;
+        }
+        return true;
     }
 }
